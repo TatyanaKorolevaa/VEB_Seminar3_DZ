@@ -13,9 +13,14 @@
 
     <p>Домашнее задание к Семинару №3</p>
     <script language="JavaScript">
-
-        let name = prompt("Введите свое имя", "Имя");
-        alert("Привет, " + name + "!");
+        function showMessage(){
+            let message = "Привет, " + userName + "!";
+            alert(message);   
+        }
+        let userName = prompt("Введите свое имя", "Имя");
+        showMessage(userName);
+        
+        
     </script>
     
 </body>
